@@ -1,0 +1,81 @@
+.filter-container {
+    width: 20%;
+    /* padding: 1rem 2rem; */
+  
+    display: inline-block;
+    position: relative;
+
+    margin-top: 2rem;
+}
+  
+  .filter {
+    background-color: var(--color-white);
+  
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    padding: 1rem;
+  
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+  }
+  
+  .theme.dark .filter {
+    background-color: var(--dark-blue-elements);
+  }
+  .theme.dark .filter i {
+    color: var(--color-white);
+  }
+  
+  .filter form {
+    flex: 1;
+  }
+  
+  .filter-input {
+    font-family: "Nunito Sans", sans-serif;
+  
+    border: none;
+    width: 100%;
+    height: 100%;
+  
+    padding: 1rem;
+
+    cursor: pointer;
+  }
+  
+  .theme.dark .filter-input {
+    background-color: var(--dark-blue-elements);
+  }
+  
+  .theme.dark .filter-input::placeholder {
+    color: var(--color-white);
+  }
+  
+  .filter-input:focus {
+    outline: none;
+  }
+  
+  .dropdown {
+    position: absolute;
+    /* display: none; */
+    margin-top: 2px;
+    background-color: var(--color-white);
+    border-radius: 5px;
+    min-width: 100%;
+  }
+  
+  .theme.dark .dropdown {
+    background-color: var(--dark-blue-elements);
+  }
+  
+  .dropdown-item {
+    padding: 0.8rem 2rem;
+    cursor: pointer;
+    color: var(--light-mode-text);
+  }
+  
+  .theme.dark .dropdown-item {
+    color: var(--color-white);
+  }
