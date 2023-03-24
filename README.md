@@ -15,14 +15,24 @@ Your users should be able to:
 - Click through to the border countries on the detail page
 - Toggle the color scheme between light and dark mode *(optional)*
 
+### Links
+
+ - Live Site: 
+
+### Screenshots
+![HomeDarkMode](Traveler.jpeg)
+![Filtered&SearchMode](Travelers.jpeg)
+![SelectedCountry](Travelercioc.jpeg)
+
 ## My Process
 
 ### Built with
 - Vite
 - [React](https://reactjs.org/)
 - [REST Countries API](https://restcountries.com)
+- [React-Router](https://v5.reactrouter.com/)
+- [Redux](https://redux-toolkit.js.org/)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [Typescript](https://www.typescriptlang.org/)
 - `data.json` For default data if the Api ever goes down
 
 ## Built By Chukwuebuka Victor Ezeocha
