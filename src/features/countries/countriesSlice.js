@@ -72,7 +72,7 @@ export const countriesSlice = createSlice({
                 state.loading = false;
                 state.error = true;
                 state.message = action.payload;
-                state.countrySearched = [];
+                state.countriesData = [];
             });
     },
 });

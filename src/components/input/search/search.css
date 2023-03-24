@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     background-color: var(--color-white);
-    width: 30%;
-    padding: 1rem 2rem;
+    width: 100%;
+    padding: 2rem 1rem;
     border-radius: 1rem;
     margin-top: 2rem;
   }
@@ -30,7 +30,7 @@
     border: none;
     width: 100%;
   
-    padding: 1rem;
+    padding: .85rem;
   }
   
   .theme.dark .search-input {
@@ -44,4 +44,24 @@
   
   .search-input:focus {
     outline: none;
+  }
+
+  @media (min-width:768px) {
+    .search-container {
+      display: flex;
+      align-items: center;
+      background-color: var(--color-white);
+      width: 30%;
+      padding: 1rem 2rem;
+      border-radius: 1rem;
+      margin-top: 2rem;
+    }
+    .search-input {
+      font-family: "Nunito Sans", sans-serif;
+    
+      border: none;
+      width: 100%;
+    
+      padding: 1rem;
+    }
   }
